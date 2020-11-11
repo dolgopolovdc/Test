@@ -14,7 +14,7 @@ export default (() => {
 			<link rel={"shortcut icon"} href={"https://uploads.quarkly.io/readme/cra/favicon-32x32.ico"} type={"image/x-icon"} />
 		</Helmet>
 		<Section
-			background="linear-gradient(0deg,rgba(4, 8, 12, 0.6) 0%,rgba(4, 8, 12, 0.6) 100%),--color-darkL2 url(https://images.unsplash.com/photo-1510125594188-5afc74c8cc43?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=1650&q=80) center/cover"
+			background="linear-gradient(0deg,rgba(4, 8, 12, 0.6) 0%,rgba(4, 8, 12, 0.6) 100%),--color-darkL2 url(https://images.unsplash.com/photo-1605041176777-23275b7a1410?ixlib=rb-1.2.1&q=85&fm=jpg&crop=entropy&cs=srgb&ixid=eyJhcHBfaWQiOjE0MjIzN30&w=2000) center/cover"
 			padding="64px 0"
 			sm-padding="40px 0"
 			color="--light"
@@ -27,15 +27,19 @@ export default (() => {
 						Excellence in everything
 					</Text>
 					<Text as="h1" font="--headline1" md-font="--headline2" margin="10px 0">
-						Striving for perfection in everything we do. Unparalleled service for everyone.
+						Мой первый сайт на{" "}
+						<br />
+						quarkly.io
 					</Text>
 				</StackItem>
 			</Stack>
 			<Box text-align="center" margin="96px 0 0 0">
-				<Text margin="8px 0" text-transform="uppercase">
-					Who we are
-				</Text>
-				<Icon category="md" margin="0 auto" icon={MdArrowDownward} />
+				<Link href="https://quarkly.io">
+					<Text margin="8px 0" text-transform="uppercase">
+						Подробнее
+					</Text>
+					<Icon category="md" margin="0 auto" icon={MdArrowDownward} />
+				</Link>
 			</Box>
 		</Section>
 		<Link
